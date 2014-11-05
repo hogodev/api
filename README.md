@@ -4,4 +4,4 @@ The HoGo API reference document is designed for those interested in developing f
 
 For more infomation about HoGo please access here http://www.hogodoc.com
 
-GET START
+<a href="https://github.com/hogodev/api/wiki" >Get Start Now</a>
