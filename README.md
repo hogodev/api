@@ -17,5 +17,5 @@ For more infomation about HoGo please access http://www.hogodoc.com
 
 
 <a href="https://github.com/hogodev/api/wiki" >
- <img src="http://studioself.com/wp-content/uploads/2013/09/get-started-button.png" height="50"/>
+ <img src="http://avalanche.hogodoc.com/img/started.png" height="50"/>
 </a>
