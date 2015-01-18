@@ -1,5 +1,5 @@
 <!-- LOGO -->
- <img src="http://avalanche.hogodoc.com/HoGo/Images/logo_console.png" />
+<!-- <img src="http://avalanche.hogodoc.com/HoGo/Images/logo_console.png" /> -->
 <!-- End LOGO -->
 
 <!-- Title --> 
