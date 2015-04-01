@@ -15,7 +15,9 @@ The HoGo API reference document is designed for those interested in developing f
  <img src="http://avalanche.hogodoc.com/images/started.png" height="30"/>
 </a>
 
-For more infomation about HoGo please access http://www.hogodoc.com
+===
+For more infomation about HoGo please reference at http://www.hogodoc.com
+If any question regarding to APIs usage and customization support, please get in touch with us at http://www.hogodoc.com/contact-us
 
 <!--
 ![slide1](https://cloud.githubusercontent.com/assets/1794584/5793051/94af9dea-9f67-11e4-870e-7ee35c7b9a4a.JPG)
