@@ -16,7 +16,7 @@ The HoGo API reference document is designed for those interested in developing f
 </a>
 
 ===
-For more infomation about HoGo please reference at http://www.hogodoc.com
+For more infomation about HoGo please reference at http://www.hogodoc.com <br/>
 If any question regarding to APIs usage and customization support, please get in touch with us at http://www.hogodoc.com/contact-us
 
 <!--
