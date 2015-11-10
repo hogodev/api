@@ -1,5 +1,5 @@
 <!-- LOGO -->
-<img src="http://dev.hogodoc.com/HoGo/Images/logo_console.png" /> 
+<img src="http://dev2.hogodoc.com/HoGo/Images/logo_console.png" /> 
 <!-- End LOGO -->
 
 <!-- Title --> 
@@ -12,7 +12,7 @@ The HoGo API reference document is designed for those interested in developing f
 <!-- *** End content introduction *** -->
 
 <a href="https://github.com/hogodev/api/wiki" >
- <img src="http://avalanche.hogodoc.com/images/started.png" height="30"/>
+ View API documents
 </a>
 
 ===
