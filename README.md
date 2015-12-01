@@ -15,8 +15,6 @@ The HoGo API reference document is designed for those interested in developing f
  HoGo Distribution API documents
 </a>
 
-<br/>
-
 <a href="#" >
  HoGo TeamSpace API documents
 </a>
