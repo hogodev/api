@@ -402,8 +402,8 @@ The API is to update folder/file name.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_id | String | (Optional) folder_id will be edited |
-| file_id | String | (Optional) file_id will be edited |
+| folder_id | String | (Required) folder_id will be edited |
+| file_id | String | (Required) file_id will be edited |
 | name | String | (Required) |
 
 #### Response example
