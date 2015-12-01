@@ -473,8 +473,8 @@ This API is to delete folder/file.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_id | String | (Optional) folder_id will be deleted |
-| file_id | String | (Optional) file_id will be deleted |
+| folder_id | String | (Required) folder_id will be deleted |
+| file_id | String | (Required) file_id will be deleted |
 
 #### Response example
 ```json
