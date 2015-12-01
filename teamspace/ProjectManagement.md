@@ -885,7 +885,7 @@ The API is to restore folder/file which is temporarily deleted.
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
 | folder_ids | String | (Required) list of folder_ids will be restored |
-| file_ids | String | (Optional) list of file_ids will be restored |
+| file_ids | String | (Required) list of file_ids will be restored, could be set NULL |
 
 #### Response example
 ```json
