@@ -18,6 +18,12 @@ Following is the design philosophy applied to HoGo API.
 </li>
 
 <li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#create-project" target="_blank">
+  Create Project
+  </a>
+</li>
+
+<li> 
   <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#get-project-list" target="_blank">
   Get list of projects
   </a>
@@ -35,6 +41,17 @@ Following is the design philosophy applied to HoGo API.
   </a>
 </li>
 
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#encode--register-license" target="_blank">
+  Encode file & register lincese for all member in project
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#create-folder" target="_blank">
+  Create a folder in project
+  </a>
+</li>
 
 <li> 
   <a href="https://github.com/hogodev/api/tree/master/teamspace" target="_blank">
