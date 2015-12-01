@@ -22,7 +22,7 @@ The API is to create link to share to other people.
 | Name | Data Format | Description |
 |:---|:---|:---|
 | auth_token | String | (Required) the current user auth_token |
-| type_share | int | (Required) share type |
+| type_share | int | (Required) Type share( Project: 1  Folder:2  File:3 )|
 | project_id | String | (Required) the parent project_id |
 | folder_id | String | (Optional) folder_id will be shared |
 | file_id | String | (Optional) file_id will be shared |
