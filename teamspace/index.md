@@ -9,6 +9,10 @@ Following is the design philosophy applied to HoGo API.
 * All API response object has following properties
 
 
+Server URL: https://dev.hogodoc.com/hogopro/api/{API_NAME}
+
+For example Login API: https://dev.hogodoc.com/hogopro/api/user/login
+
 ### COMMON APIs 
 
 <ul>
@@ -50,6 +54,18 @@ Following is the design philosophy applied to HoGo API.
 <li> 
   <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#create-folder" target="_blank">
   Create a folder in project
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/Project_RegisterLicense.md#get-license-info" target="_blank">
+  Get file License setting
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/Project_RegisterLicense.md#license-update" target="_blank">
+  Update file License setting
   </a>
 </li>
 
