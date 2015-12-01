@@ -207,7 +207,7 @@ The API is to upload files from could(Dropbox, Box, GoogleDrive).
 | file_name | String | (Required) name of file |
 | content_url | String | (Required) the loud url of file is uploaded |
 | file_type | String | (Required) file type |
-| folder_id | String | (Optional) parent folder_id |
+| folder_id | String | (Required) parent folder_id, could be set NULL if it's root folder |
 | project_id | String | (Optional) project_id |
 | session_upload | String | (Optional) |
 | cloud_type | int | (Required) DROPBOX(1), BOX(2), GOOGLE_DRIVE(3) |
@@ -359,7 +359,7 @@ The API is to create new folder in project.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| parent_folder_id | String | (Optional) folder parent id |
+| parent_folder_id | String | (Required) folder parent id, could be set NULL if it's root folder |
 | name | String | (Required) name of project |
 
 #### Response example
@@ -618,7 +618,7 @@ The API is to get files/folder in project/folder parent.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_id | String | (Optional) the folder parent id |
+| folder_id | String | (Required) the folder parent id, could be set NULL  |
 | search_key | String | (Optional) key word to search for folder/file |
 | sort_key | int | (Optional) (default value: 1) |
 | active | boolean | (Optional) (default value: 'true') |
@@ -789,8 +789,8 @@ The API is to move folder/file.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_id | String | (Optional) folder_id of folder will be moved  |
-| file_id | String | (Optional) file_id of folder will be moved |
+| folder_id | String | (Required) folder_id of folder will be moved, could be set NULL  |
+| file_id | String | (Required) file_id of folder will be moved |
 | new_parent_folder_id | String | (Optional) new parent folder id |
 
 #### Response example
@@ -884,7 +884,7 @@ The API is to restore folder/file which is temporarily deleted.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_ids | String | (Optional) list of folder_ids will be restored |
+| folder_ids | String | (Required) list of folder_ids will be restored |
 | file_ids | String | (Optional) list of file_ids will be restored |
 
 #### Response example
@@ -918,8 +918,8 @@ The API is to delete folders/files forever from the project.
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | project_id | String | (Required) the project parent id |
-| folder_ids | String | (Optional) list of folder_ids will be deleted forever |
-| file_ids | String | (Optional) list of file_ids will be deleted forever |
+| folder_ids | String | (Required) list of folder_ids will be deleted forever, could be set NULL  |
+| file_ids | String | (Required) list of file_ids will be deleted forever, could be set NULL  |
 
 #### Response example
 ```json
