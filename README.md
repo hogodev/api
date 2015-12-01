@@ -18,7 +18,7 @@ The HoGo API reference document is designed for those interested in developing f
 </li>
 
 <li>
-<a href="#" >
+<a href="https://github.com/hogodev/api/blob/master/teamspace/index.md" >
  HoGo TeamSpace API documents
 </a>
 </li>
