@@ -10,14 +10,19 @@ HoGo REST API Documents
 The HoGo API reference document is designed for those interested in developing for all platforms.
 
 <!-- *** End content introduction *** -->
-
+<ul>
+<li>
 <a href="https://github.com/hogodev/api/wiki" >
  HoGo Distribution API documents
 </a>
+</li>
 
+<li>
 <a href="#" >
  HoGo TeamSpace API documents
 </a>
+</li>
+</ul>
 
 ===
 For more infomation about HoGo please reference at http://www.hogodoc.com <br/>
