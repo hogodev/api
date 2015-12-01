@@ -55,7 +55,7 @@ Following is the design philosophy applied to HoGo API.
 
 <li> 
   <a href="https://github.com/hogodev/api/tree/master/teamspace" target="_blank">
-  More Detail APIs
+  View All Detail APIs
   </a>
 </li>
 
