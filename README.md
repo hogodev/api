@@ -1,9 +1,9 @@
 <!-- LOGO -->
-<img src="http://dev2.hogodoc.com/HoGo/Images/logo_console.png" /> 
+<img src="https://www.hogodoc.com/HoGo/Images/logo_console_2.png" /> 
 <!-- End LOGO -->
 
 <!-- Title --> 
-HoGo API Document pages
+HoGo REST API Documents
 ====
 
 <!-- *** Start Content introduction here  *** -->
@@ -12,7 +12,13 @@ The HoGo API reference document is designed for those interested in developing f
 <!-- *** End content introduction *** -->
 
 <a href="https://github.com/hogodev/api/wiki" >
- View API documents
+ HoGo Distribution API documents
+</a>
+
+<br/>
+
+<a href="#" >
+ HoGo TeamSpace API documents
 </a>
 
 ===
