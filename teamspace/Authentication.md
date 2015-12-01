@@ -79,7 +79,7 @@ The auth_token will be value of ```session_id``` response
 | Name | Data Format | Description |
 |:---|:---|:---|
 | email_address | String | (Required) user' email address |
-| password | String | (Required) MD5 string password |
+| password | String | (Required) The string password MUST be hash MD5|
 | team_id | String | (Required) user' team ID |
 | keep_me_login | boolean | (Required) keep login status |
 
