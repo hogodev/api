@@ -269,7 +269,7 @@ The API is to encode file & register license for member in project
 | label | String | (Optional) Document label name in UTF8 encoding, default: empty, string (< 32 bytes) |
 | printable | int | 0 or 1 (0: does not allow print, 1: allow print) |
 | editable | int | 0 or 1 (0: does not allow edit, 1: allow edit)  |
-| expiry_date | String | (Optional) the encoded file will be expire at this date, format “yyyy/mm/dd hh:mm:ss” |
+| expiry_date | String | (Required)  the encoded file will be expire at this date, format “yyyy/mm/dd hh:mm:ss”. Could be set empty "" for no limited |
 | local_copy | int | 1 - 10, the number of local copy allow, default is 2 |
 
 #### Response example
