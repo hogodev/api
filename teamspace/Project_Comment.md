@@ -1,4 +1,4 @@
-# Project Comment Management API
+# Project Comment APIs
 
 ## CREATE COMMENT
 
