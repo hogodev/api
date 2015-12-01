@@ -1,4 +1,4 @@
-# SHARE LINK & MANAGEMENT API
+# File/Folder Sharing APIs
 
 ## CREATE LINK
 
