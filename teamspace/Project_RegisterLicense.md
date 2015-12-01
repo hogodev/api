@@ -70,8 +70,8 @@ The API is to update the license info.
 | file_ids | String | (Required) list of file id to register license, separated by ',' |
 | project_id | String | (Required) the project id |
 | label | String | (Optional) Document label name in UTF8 encoding, default: empty, string (< 32 bytes) |
-| printable | int | 0 or 1 (0: does not allow print, 1: allow print |
-| editable | int | 0 or 1 (0: does not allow edit, 1: allow edit  |
+| printable | int | 0 or 1 (0: does not allow print, 1: allow print) |
+| editable | int | 0 or 1 (0: does not allow edit, 1: allow edit)  |
 | expiry_date | String | (Optional) the encoded file will be expire at this date, format “yyyy/mm/dd hh:mm:ss” |
 | local_copy | int | 1 - 10, the number of local copy allow, default is 2 |
 | delete | String | (Optional) accept true/false |
