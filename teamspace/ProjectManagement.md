@@ -264,13 +264,13 @@ The API is to encode file & register license for member in project
 |:---|:---|:---|
 | auth_token | String | (Required) the current auth_token |
 | file_ids | String | (Required) list of file_id will be encoded |
-| transaction_id | String | (Optional) |
-| project_id | String | (Optional) project_id |
-| label | String | (Optional) |
-| printable | int | (Optional) the number of printing encoded file |
-| editable | int | (Optional) the number of editable encoded file |
-| expiry_date | String | (Optional) the encoded file will be expire at this date |
-| local_copy | int | (Optional) the number of local copy allow |
+| transaction_id | String | (Optional) just use in case encode multiple file|
+| project_id | String | (Required) project_id |
+| label | String | (Optional) Document label name in UTF8 encoding, default: empty, string (< 32 bytes) |
+| printable | int | 0 or 1 (0: does not allow print, 1: allow print |
+| editable | int | 0 or 1 (0: does not allow edit, 1: allow edit  |
+| expiry_date | String | (Optional) the encoded file will be expire at this date, format “yyyy/mm/dd hh:mm:ss” |
+| local_copy | int | 1 - 10, the number of local copy allow, default is 2 |
 
 #### Response example
 ```json
