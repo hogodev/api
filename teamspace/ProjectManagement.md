@@ -144,11 +144,11 @@ The API is to upload files from computer to HoGoPro.
   ---------------------------------------------------------------------------- --------------------------------------------------------------------------------- -----------------------
 | Name | Data Format | Description |
 |:---|:---|:---|
-| file_name | String | name of file |
-| file | MultipartFile | a file is uploaded |
+| file_name | String | (Required) name of file |
+| file | MultipartFile |(Required)  a file is uploaded |
 | auth_token | String | (Required) the current auth_token |
-| folder_id | String | parent folder_id, could be null |
-| project_id | String | project_id |
+| folder_id | String | (Required) parent folder_id, could be null |
+| project_id | String | (Required) project_id |
 | name | String | (Optional) just use for multipart upload|
 | chunk | String | (Optional) just use for multipart upload |
 | chunks | String | (Optional) just use for multipart upload|
