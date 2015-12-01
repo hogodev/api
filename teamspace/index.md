@@ -70,8 +70,44 @@ For example Login API: https://dev.hogodoc.com/hogopro/api/user/login
 </li>
 
 <li> 
-  <a href="https://github.com/hogodev/api/tree/master/teamspace" target="_blank">
-  View All Detail APIs
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#download-file" target="_blank">
+  Download File
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/Project_ShareFile.md#filefolder-sharing-apis" target="_blank">
+  File & Folder sharing
+  </a>
+</li>
+
+
+</ul>
+
+### VIEW ALL OTHER APIs 
+<ul>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/ProjectManagement.md#create-folder" target="_blank">
+  Project Management APIs
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/UserManagement.md#user-management-api" target="_blank">
+  User Management APIs
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/Project_Comment.md#create-comment" target="_blank">
+  Project Comment APIs
+  </a>
+</li>
+
+<li> 
+  <a href="https://github.com/hogodev/api/blob/master/teamspace/History.md#history-api" target="_blank">
+  History APIs
   </a>
 </li>
 
