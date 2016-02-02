@@ -24,7 +24,7 @@ The API is to create new project in team.
 | auth_token | String | (Required) the current auth_token |
 | name | String | (Required) project name |
 | description | String | (Optional) project description |
-| setting | String | (Optional) (default value: 000000) project settings |
+| setting | String | (Optional) the project settings must be 6 characters, default value is 000000|
 |user_ids| String | (Optional) set User Id outside project that would be received notification when there is new update on project |
 
 #### Project setting description
@@ -85,7 +85,7 @@ The API is to update project info.
 | project_id | String | (Required) the project id will be updated |
 | name | String | (Required) new project name |
 | description | String | (Optional) new project description |
-| setting | String | (Optional) (default value: 000000) project settings |
+| setting | String | (Optional) the project settings must be 6 characters, default value is 000000|
 |user_ids| String | (Optional) set User Id outside project that would be received notification when there is new update on project |
 
 #### Project setting description
