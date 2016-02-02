@@ -33,7 +33,7 @@ The API is to create new project in team.
 | 0 | Disable (default) |
 | 1 | Enable|
 
-![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739452/74324724-c99c-11e5-97a0-df933881b8a4.png)
+![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739579/76850682-c99d-11e5-90d0-30df80caed55.png)
 
 
 
@@ -94,7 +94,7 @@ The API is to update project info.
 | 0 | Disable (default) |
 | 1 | Enable|
 
-![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739452/74324724-c99c-11e5-97a0-df933881b8a4.png)
+![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739579/76850682-c99d-11e5-90d0-30df80caed55.png)
 
 
 
