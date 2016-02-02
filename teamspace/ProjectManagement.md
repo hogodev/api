@@ -24,24 +24,39 @@ The API is to create new project in team.
 | auth_token | String | (Required) the current auth_token |
 | name | String | (Required) project name |
 | description | String | (Optional) project description |
-| max_download | String | (Required) (default value: 1) project max download |
+| setting | String | (Optional) (default value: 000000) project settings |
+|user_ids| String | (Optional) set User Id outside project that would be received notification when there is new update on project |
+
+#### Project setting description
+| Value | Description|
+|:---|:---|
+| 0 | Disable (default) |
+| 1 | Enable|
+
+![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739452/74324724-c99c-11e5-97a0-df933881b8a4.png)
+
+
 
 #### Response example
 ```json
-{  
-   "result":{  
-      "project_id":"e9ac4e663b26477da37f843e0e7b0908",
-      "team_id":"34ee29628110424696ea902bf5b342f2",
-      "name":"Create Project",
-      "description":"Description here",
-      "project_type":1,
-      "create_date":"2015/09/10 11:41:24",
-      "modify_date":null,
-      "max_download":1,
-      "status":1
-   },
-   "status_code":200,
-   "total_records":null
+{
+    "result": {
+        "project_id": "a87570a5121a451088f8bd3c932715c8",
+        "team_id": "hogo",
+        "name": "Project Name",
+        "description": "Project description",
+        "project_type": 1,
+        "create_date": "2016/02/02 03:57:51",
+        "modify_date": null,
+        "max_download": 1,
+        "status": 1,
+        "setting": "000000",
+        "notify_user": "[]",
+        "forward": ""
+    },
+    "status_code": 200,
+    "total_records": null,
+    "server_time": null
 }
 ```
 
@@ -70,26 +85,42 @@ The API is to update project info.
 | project_id | String | (Required) the project id will be updated |
 | name | String | (Required) new project name |
 | description | String | (Optional) new project description |
-| max_download | String | (Optional) new project max download |
+| setting | String | (Optional) (default value: 000000) project settings |
+|user_ids| String | (Optional) set User Id outside project that would be received notification when there is new update on project |
+
+#### Project setting description
+| Value | Description|
+|:---|:---|
+| 0 | Disable (default) |
+| 1 | Enable|
+
+![projectsetting](https://cloud.githubusercontent.com/assets/1794584/12739452/74324724-c99c-11e5-97a0-df933881b8a4.png)
+
+
 
 #### Response example
 ```json
-{  
-   "result":{  
-      "project_id":"e9ac4e663b26477da37f843e0e7b0908",
-      "team_id":"34ee29628110424696ea902bf5b342f2",
-      "name":"Create Project update",
-      "description":"Description here",
-      "project_type":1,
-      "create_date":"2015/09/10 11:41:24",
-      "modify_date":"2015/09/10 11:52:29",
-      "max_download":1,
-      "status":1
-   },
-   "status_code":200,
-   "total_records":null
+{
+    "result": {
+        "project_id": "a87570a5121a451088f8bd3c932715c8",
+        "team_id": "hogo",
+        "name": "Project Name",
+        "description": "Project description",
+        "project_type": 1,
+        "create_date": "2016/02/02 03:57:51",
+        "modify_date": null,
+        "max_download": 1,
+        "status": 1,
+        "setting": "000000",
+        "notify_user": "[]",
+        "forward": ""
+    },
+    "status_code": 200,
+    "total_records": null,
+    "server_time": null
 }
 ```
+
 
 ## DELETE PROJECT
 
