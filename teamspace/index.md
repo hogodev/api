@@ -9,9 +9,9 @@ Following is the design philosophy applied to HoGo API.
 * All API response object has following properties
 
 
-Server URL: https://dev2.hogodoc.com/hogopro/api/{API_NAME}
+Server URL: https://dev.hogodoc.com/hogopro/api/{API_NAME}
 
-For example Login API: https://dev2.hogodoc.com/hogopro/api/user/login
+For example Login API: https://dev.hogodoc.com/hogopro/api/user/login
 
 Chat with the team
 <p><a href="https://gitter.im/hogodev/api" target="_blank"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a></p>
